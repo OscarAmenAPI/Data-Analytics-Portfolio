@@ -22,7 +22,7 @@ The business required a centralized dashboard to monitor sales performance, cust
 
 ## Dashboard Preview
 
-![Dashboard](Dashboard/Dashboard_Screenshot.png)
+![Dashboard](BrazilDataDashboard.JPG)
 
 ---
 
