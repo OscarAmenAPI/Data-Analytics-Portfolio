@@ -10,13 +10,12 @@ Tools Used:
 - SQL Server
 - Power BI
 - Power Query
-- Excel
 
 ---
 
 ## Business Problem
 
-The business required a centralized dashboard to monitor sales performance, customer activity, regional performance, and customer satisfaction.
+The business required a centralized dashboard to monitor sales performance, customer activity, regional performance, delivery times, and customer satisfaction.
 
 ---
 
@@ -60,6 +59,25 @@ Longer delivery times were associated with lower review scores.
 Example:
 
 ```sql
-SELECT
-    SUM(payment_value) AS Revenue
-FROM order_payments;
+WITH TotalRevenue AS ( 
+ SELECT 
+ FORMAT(o.order_purchase_timestamp , 'yyyy-MM') AS OrderMonth , 
+ SUM(op.payment_value ) AS revenue 
+FROM order_payments op 
+JOIN orders o 
+ ON op.order_id = o.order_id 
+GROUP BY  
+ FORMAT(o.order_purchase_timestamp , 'yyyy-MM') 
+) 
+ 
+SELECT  
+ OrderMonth , 
+ revenue , 
+ ROUND ( 
+ (revenue - LAG(revenue ) OVER (ORDER BY OrderMonth )) 
+ * 100 / 
+ LAG(revenue ) OVER (ORDER BY OrderMonth ), 
+ 2 
+ )AS PercentageChange  
+FROM TotalRevenue 
+ORDER BY OrderMonth 
