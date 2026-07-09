@@ -1,6 +1,5 @@
-# Data-Analytics-Portfolio
-
-# Brazil E-Commerce Sales Analysis | SQL & Power BI
+# Brazil E-Commerce Sales Analysis 
+SQL & Power BI
 
 ## Project Overview
 
