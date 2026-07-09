@@ -50,6 +50,19 @@ Acre ranked second in average order value despite low overall revenue.
 
 Longer delivery times were associated with lower review scores.
 
+## Recommendations
+
+### 1. Prioritize São Paulo for customer retention and logistics optimization because it is 
+the company’s largest revenue market.  
+### 2. Investigate Acre further to determine whether targeted marketing could increase 
+order volume while maintaining its high average order value. 
+### 3. Protect and expand the top-performing product categories but monitor dependency 
+risk by identifying emerging categories with growth potential.  
+### 4. Improve delivery speed and reliability, especially for orders at risk of long delivery 
+times, because delayed deliveries appear linked to lower review scores.  
+### 5. Analyze one-star reviews in more detail to identify recurring complaints related to 
+delivery, product quality, or customer service.
+
 ---
 
 ## SQL Analysis
