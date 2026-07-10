@@ -31,7 +31,7 @@ The analysis was designed to answer the following business questions:
 
 ## Dashboard Preview
 
-![Dashboard](BrazilDataDashboard.JPG)
+![Dashboard](BrazilDataDashboard1.JPG)
 
 ---
 
