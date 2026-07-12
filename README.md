@@ -4,7 +4,7 @@
 
 This project analyzes the Olist Brazilian E-Commerce dataset to evaluate sales performance, customer activity, regional performance, product performance, delivery efficiency, and customer satisfaction.
 
-SQL Server was used to clean, join, aggregate, and analyze the data. Power BI was used to build an interactive dashboard that gives management a centralized view of business performance and operational trends.
+SQL Server was used to join, aggregate, and analyze the data. Power BI was used to build an interactive dashboard that gives management a centralized view of business performance and operational trends.
 
 Tools Used:
 * SQL Server
