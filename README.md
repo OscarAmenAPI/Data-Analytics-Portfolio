@@ -11,6 +11,8 @@ Tools Used:
 * Power BI
 * Power Query
 
+Link to code: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
 ---
 
 ## Business Problem
